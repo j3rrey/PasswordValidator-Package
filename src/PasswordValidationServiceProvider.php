@@ -1,10 +1,10 @@
 <?php
 
-namespace prokawsar\PasswordValidator;
+namespace J3rrey\PasswordValidation;
 
 use Illuminate\Support\ServiceProvider;
 
-class PasswordValidatorServiceProvider extends ServiceProvider
+class PasswordValidationServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.

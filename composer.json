@@ -1,5 +1,5 @@
 {
-    "name": "j3rrey/password-validator",
+    "name": "j3rrey/laravel-password-validation",
     "description": "Simple extendable password validation rules for Laravel",
     "type": "library",
     "license": "MIT",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "j3rrey\\PasswordValidator\\": "src/"
+            "J3rrey\\PasswordValidation\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "j3rrey\\PasswordValidator\\PasswordValidatorServiceProvider"
+                "j3rrey\\PasswordValidation\\PasswordValidationServiceProvider"
             ]
         }
     }

@@ -1,17 +1,12 @@
-[![Latest Stable Version](https://poser.pugx.org/prokawsar/password-validator/v/stable)](https://packagist.org/packages/prokawsar/password-validator)
-[![Build Status](https://travis-ci.org/prokawsar/PasswordValidator-Package.svg?branch=master)](https://travis-ci.org/prokawsar/PasswordValidator-Package)
-[![StyleCI](https://github.styleci.io/repos/149725750/shield?branch=master)](https://github.styleci.io/repos/149725750)
-[![Total Downloads](https://poser.pugx.org/prokawsar/password-validator/downloads)](https://packagist.org/packages/prokawsar/password-validator)
-[![License](https://poser.pugx.org/prokawsar/password-validator/license)](https://packagist.org/packages/prokawsar/password-validator)
-
-
 # Simple password validation rules for Laravel
 
 Currently in development
 
 ## Installation 
-- [x] Run `composer require j3rrey/laravel-password-validation`
-- [x] Then run `php artisan vendor:publish` and select `Provider: j3rrey/laravel-password-validation\PasswordValidatorServiceProvider` package 
+Run `composer require j3rrey/laravel-password-validation`
+and `php artisan vendor:publish` 
+
+if asked choose `J3rrey\PasswordValidation\PasswordValidationServiceProvider` 
 
 All rules will be published in the App/Rules folder.
 

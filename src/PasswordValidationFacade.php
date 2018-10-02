@@ -1,10 +1,10 @@
 <?php
 
-namespace prokawsar\PasswordValidator;
+namespace J3rrey\PasswordValidation;
 
 use Illuminate\Support\Facades\Facade;
 
-class PasswordValidatorFacade extends Facade
+class PasswordValidationFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {

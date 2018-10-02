@@ -1,6 +1,6 @@
 <?php
 
-namespace prokawsar\PasswordValidator\Rules;
+namespace J3rrey\PasswordValidation\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace prokawsar\PasswordValidator\Rules;
+namespace J3rrey\PasswordValidation\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 
@@ -24,7 +24,7 @@ class Lowercase implements Rule
      *
      * @return bool
      */
-    public function passes($attribute, $value)
+    public function passes($attribute, $value) : bool
     {   // Custom checking code
         for ($i = 0; $i < strlen($value); $i++) {
             if ($value[$i] >= 'a' && $value[$i] <= 'z') {
@@ -42,6 +42,6 @@ class Lowercase implements Rule
      */
     public function message()
     {
-        return 'Lowercase letter missing.';
+        return 'For enhanced security please also use lowercase letters in your :attribute';
     }
 }
