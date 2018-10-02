@@ -10,10 +10,10 @@
 Currently in development
 
 ## Installation 
-- [x] Run `composer require prokawsar/password-validator`
-- [x] Then run `php artisan vendor:publish` and select `Provider: prokawsar\PasswordValidator\PasswordValidatorServiceProvider` package 
+- [x] Run `composer require j3rrey/laravel-password-validation`
+- [x] Then run `php artisan vendor:publish` and select `Provider: j3rrey/laravel-password-validation\PasswordValidatorServiceProvider` package 
 
-all rules will be published in the App/Rules folder.
+All rules will be published in the App/Rules folder.
 
 
 ## How to use this package
