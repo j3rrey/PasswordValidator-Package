@@ -1,12 +1,12 @@
 {
-    "name": "prokawsar/password-validator",
-    "description": "Password validator for Laravel Framework",
+    "name": "j3rrey/password-validator",
+    "description": "Simple extendable password validation rules for Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kawsar Ahmed",
-            "email": "prokawsar@gmail.com"
+            "name": "Jeremy Bruns",
+            "email": "bruns.jeremy@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "prokawsar\\PasswordValidator\\": "src/"
+            "j3rrey\\PasswordValidator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "prokawsar\\PasswordValidator\\PasswordValidatorServiceProvider"
+                "j3rrey\\PasswordValidator\\PasswordValidatorServiceProvider"
             ]
         }
     }

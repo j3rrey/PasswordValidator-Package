@@ -5,7 +5,7 @@
 [![License](https://poser.pugx.org/prokawsar/password-validator/license)](https://packagist.org/packages/prokawsar/password-validator)
 
 
-# PasswordValidator-Package
+# Simple password validation rules for Laravel
 
 Currently in development
 
@@ -16,22 +16,20 @@ Currently in development
 all rules will be published in the App/Rules folder.
 
 
-## To use this package
+## How to use this package
 
-Use `use App\Rules\{RuleName};` and add a rule in Validator::make calls as `new RuleName`
+Add `use App\Rules\{RuleName};` beneath your namespace and add a rule in a Validator::make call as `new RuleName`
 
 
-E.G. 
+Example: 
 ```php
 <?php
   use App\Rules\Uppercase;
 
   return Validator::make($data, [
       'email' => 'required|string|email|max:255|unique:users',
-      
-      // 'password' => 'required|string|min:6|confirmed',
-      
-      'password' => ['required', new Uppercase],
+            
+      'password' => ['required|string|min:8|confirmed', new Uppercase],
 
   ]);
 ```
