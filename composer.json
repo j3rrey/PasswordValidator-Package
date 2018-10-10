@@ -24,5 +24,10 @@
                 "j3rrey\\PasswordValidation\\PasswordValidationServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan asset:publish J3rrey\\PasswordValidation\\PasswordValidationServiceProvider"
+        ]
     }
 }
