@@ -1,4 +1,5 @@
-# Simple password validation rules for Laravel
+
+# Discontinued in favor of https://github.com/timacdonald/rule-builder 
 
 Currently in development
 
